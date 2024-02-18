@@ -18,6 +18,7 @@ class GridPoint:
     def __init__(self, agent=None, land_value=0.0):
         self.agent = agent
         self.land_value = land_value
+        print("Hello")
 
 
 class Schelling:
